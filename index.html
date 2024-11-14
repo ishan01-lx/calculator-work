@@ -13,12 +13,14 @@
         </div>
         <div class="container">
             <form>
+                <div class="name">ISHAN</div>
+
                 <div class="display">
                     <input type="text" name="display">
                 </div>
                 <div>
                     <input type="button" value="AC" onclick="display.value = ''" class="ac">
-                    <input type="button" value="DEL" onclick="display.value = display.value.toString().slice(0,-1)" class="operator">
+                    <input type="button" value="DEL" onclick="display.value = display.value.toString().slice(0,-1)" class="del">
                     <input type="button" value="."onclick="display.value += '.' " class="operator">
                     <input type="button" value="/" onclick="display.value += '/' " class="operator">
                 </div>
